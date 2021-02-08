@@ -1,0 +1,62 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f3f2f0;
+}
+
+* {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.main-btn {
+  background-color: #CBEBEB;
+  font-family: "Roboto Mono", sans-serif;
+  color: #20385E;
+  padding: 10px;
+  border-radius: 1.625rem;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tile {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px 20px 20px 20px;
+  margin: 25px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, .26);
+}
+
+.main-bg {
+  padding: 20px 0 20px 0;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  1% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    display: none;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,77 @@
+
+.topic-title-container {
+  display: flex;
+  justify-content: center;
+}
+
+.edit-area {
+  border: none;
+  background-color: transparent;
+  resize: none;
+  outline: none;
+}
+
+.title-cursor {
+  cursor: default;
+}
+
+.edit-icon {
+  cursor: pointer;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: calc(100% - 25px);
+}
+
+.red {
+  color: #c30505;
+}
+
+.color-letters {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.color-size {
+  width: 30%;
+  height: auto;
+}
+
+.title-position {
+  position: relative;
+  margin-left: 7%;
+  min-width: 15%;
+  text-align: center;
+}
+
+.title-input {
+  font-size: 18px;
+  text-align: center;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: black;
+}
+
+.create-piece-container {
+  margin-top: 5%;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.add-btn-space {
+  animation: fadeIn 1s ease-out;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.plus-button {
+  font-size: 28px;
+}
+
+.plus-button:hover {
+  animation: fadeOut 1s ease-in-out;
+}

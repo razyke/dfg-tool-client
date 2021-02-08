@@ -1,0 +1,42 @@
+<div class="menu">
+  <div>
+    <div class="menu-items">
+      <h2 class="menu-items__logo-text" [routerLink]="NAV.HOME">
+        Don't forget tool
+      </h2>
+    </div>
+    <nav>
+      <ul class="navigation">
+        <li class="navigation__list">
+          <a class="navigation__path"
+             [routerLink]="NAV.CREATE_TOPIC">Create a topic</a>
+        </li>
+        <li class="navigation__list">
+          <a class="navigation__path"
+             [routerLink]="">Favorite</a>
+        </li>
+        <li class="navigation__list">
+          <a class="navigation__path"
+             [routerLink]="">Search</a>
+        </li>
+        <li class="navigation__list">
+          <a class="navigation__path"
+             [routerLink]="">F.A.Q</a>
+        </li>
+      </ul>
+    </nav>
+  </div><!-- Navigation container -->
+  <div class="user-block">
+    <nav>
+      <ul class="auth">
+        <li class="auth__list">
+          Login
+          <!--<button mat-button class="main-btn" style="font-size: 14px; padding: 5px">
+            Login
+          </button>-->
+        </li>
+      </ul>
+    </nav>
+  </div><!-- User block -->
+</div><!-- Menu container -->
+
